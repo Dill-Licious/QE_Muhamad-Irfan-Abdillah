@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Menghitung Diskon - Ilmu Komputer IPB</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+ <header class="w3-container w3-center w3-padding-48 w3-white" 
+
+			style=" 
+			background-image: url('header.png');
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: 100% 250px;">
+    <h1 class="w3-xxxlarge"><b>Menghitung Harga Diskon</b></h1>
+    <h2>Departemen Ilmu Komputer </h2>
+		<h5>IPB University </h5>
+  </header>
+
+
+	<div class="section">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center py-5">
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+					  	
+			          	<label for="reg-log"></label>
+						<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h3 class="mb-4 pb-3"> <b>Hitung Diskon</b></h3>
+											
+											<main>
+								
+											<form name="Diskon">
+											<!-- Membuat form yang bernama Diskon -->
+													
+														<div class="form-group">
+															<input type="text" name="harga" class="form-style" placeholder="Tulis Harga" id="logemail" autocomplete="off">
+																					
+														</div>	
+																				
+														<div class="form-group mt-2">
+															<input type="text" name="persen" class="form-style" placeholder="Tulis Diskon" id="logpass" autocomplete="off">
+																			
+														</div>
+												
+														<Button type="button" name="cek" value="CEK" onclick="Cek_Diskon();"href="#" class="btn mt-4">Hitung</Button>
+																		
+
+												<!-- Membuat input tombol -->
+												<div>
+												<br>
+												<div class="form-group mt-2">
+															<input type="text" name="hasil" class="form-style" placeholder="Hasil Diskon" id="logpass" autocomplete="off">
+																			
+														</div>
+											</form>
+											<!-- Setelah Membuat tampilannya maka lanjut ke java script -->
+
+											<script type="text/javascript">
+												function Cek_Diskon() { 
+												// Membuat function bernama Cek_Diskon
+													var harga = document.Diskon.harga.value; 
+													// Mengambil nilai input bernama harga yang berada pada form bernama Diskon
+													var persen = document.Diskon.persen.value; 
+													// Mengambil nilai input bernama persen yang berada pada form bernama Diskon
+													harga = parseInt(harga); 
+													// Merubah data string menjadi integer
+													persen = parseInt(persen); 
+													// Merubah data string menjadi integer
+													var hasil = harga * (persen/100); 
+													// Penghitungan nya (Persen/100) lalu kali harga
+													hasil = harga - parseInt(hasil); 
+													// lalu hasil di kurangan harga
+													document.Diskon.hasil.value = hasil; 
+													// pindahkan nilai hasil ke input bernama hasil yang berada pada form Diskon
+												}
+											</script>
+										</main>
+											
+											
+									
+																			
+										</div>
+			      					</div>
+									
+			      				</div>
+									
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+	</div>
+<!-- partial -->
+
+ <footer class="w3-container w3-center w3-padding-48 w3-white">
+    <img src="IPB.png" alt="Trulli" width="300" height="75%">
+		<br>
+		<br>
+		<br>
+    <p>Layanan belanja online atau offline biasanya menawarkan beragam jenis diskon. Strategi ini dipakai untuk menarik banyak pengunjung dan pembeli, mulai dari diskon berupa potongan harga,  paket voucher gratis ongkos kirim hingga jenis diskon lainnya.
+Hal ini termasuk salah satu konsep sales promotion yang seringkali memicu impulse buying dari seseorang. Maka dari itu, website ini kami buat dengan tujuan memudahkan pembeli dalam menentukan harga diskon.
+</p> 
+  </footer>	
+
+</body>
+</html>
