@@ -1,5 +1,5 @@
 # Code Review 
-((Dokumentasi Code Review pada folder screenshots))
+((Dokumentasi Code Review pada folder screenshots))  
 Project yang digunakan adalah project website untuk menghitung harga setelah diskon.
 
 Tersusun atas file:
