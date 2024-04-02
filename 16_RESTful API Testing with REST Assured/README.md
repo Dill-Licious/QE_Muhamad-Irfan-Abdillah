@@ -1,4 +1,4 @@
-# (15) RESTful API Testing with REST Assured
+# (16) RESTful API Testing with REST Assured
 
 ### Fundamental API Integration:
 - Mobile App
