@@ -1,0 +1,831 @@
+{
+  "id": "9b6047c4-6e0f-4515-86ca-a32853956da3",
+  "version": "2.0",
+  "name": "Sepulsa - Selenium",
+  "url": "https://www.sepulsa.com",
+  "tests": [{
+    "id": "8a7cf455-b650-4d2e-b2d6-878c5055acd7",
+    "name": "Login with valid credentials",
+    "commands": [{
+      "id": "5164575c-1f28-4782-b26b-ecc829b68455",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3de3ba29-d2bc-4432-9d23-b081d3cdb741",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbc46ba4-f8de-455c-b4d3-c539f771e1ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='button_signin_home']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de79fc1-0f1f-4b4e-949d-ae6b12ffa265",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='button_signin_home']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b3f4b4f-8b5a-4ce6-9132-c3025da904b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82406b35-6865-4694-a7d4-cced9a5d6324",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "irfanabdillah06@gmail.com"
+    }, {
+      "id": "ec5a6d6c-74b8-4598-953e-64a9c5b2719e",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e431db67-93da-44ee-9396-e48bb50c865e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24cbff57-f398-42fe-aa6c-5197e1ded0c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": "Keluarga12345"
+    }, {
+      "id": "589c3d24-7f40-4f92-a3e8-ebb68bba6bea",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a53bd410-7a2b-4fab-a92d-6daa4dd36bba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80dad9fe-06e8-4a57-890a-4dc2e0abca56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiTypography-root",
+      "targets": [
+        ["css=.MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b19c26d9-2baf-4b0e-9112-27217a013cf8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message-id",
+      "targets": [
+        ["id=message-id", "id"],
+        ["css=#message-id", "css:finder"],
+        ["xpath=//span[@id='message-id']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Halo Selamat Datang Kembali')]", "xpath:innerText"]
+      ],
+      "value": "Halo Selamat Datang Kembali"
+    }]
+  }, {
+    "id": "cf56f438-845e-42e2-b1b6-18d65a3df8ae",
+    "name": "Login with invalid credentials",
+    "commands": [{
+      "id": "ffb4a787-99b2-49fe-bc57-c23546847e3a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97456379-d381-4aee-a0c8-0df17bd1eacc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c4997f6-a15b-42ef-8740-5103e365ee63",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='button_signin_home']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a252b2af-9f46-42a2-a07a-0899757465fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='button_signin_home']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fba9cc-457e-46a3-b4f8-b4a5c9994881",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(1) > .MuiGrid-root",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(1) > .MuiGrid-root", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b079932-6bca-4199-b8d4-796ff11805ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7adaa362-39dd-4927-ab42-dcb730bd0229",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "irfanabdillah05@gmail.com"
+    }, {
+      "id": "500e8715-f4c4-4425-8883-e3a9677763ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e19df80-3a7b-44b7-9853-53944cbe024f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a02817bf-c721-4cd3-8f26-16d963577a3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": "6666666666"
+    }, {
+      "id": "1beeb8e4-83e5-4f2e-8457-92ad4ac991d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0869cba7-6801-4975-b799-9414a3108d64",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "273b7779-db5d-4331-8ba1-8249969e5823",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert_description",
+      "targets": [
+        ["id=alert_description", "id"],
+        ["css=#alert_description", "css:finder"],
+        ["xpath=//p[@id='alert_description']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Coba ingat-ingat lagi alamat e-mail/ nomor handphone dan password kamu. Masih ada yang salah nih.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e3fa32-620d-4d97-bc8d-7549d52c7af0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0839460c-9ae1-40c8-ba62-4cd8dd7af88a",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b9ffd05-4395-4991-bcb3-70e01a60751d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3658526-beb6-4dbe-9f69-503e0bc454ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-plnwarning",
+      "targets": [
+        ["css=.section-plnwarning", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d39ddbe7-98b3-4540-82d7-04507b20efbc",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=alert_description",
+      "targets": [
+        ["id=alert_description", "id"],
+        ["css=#alert_description", "css:finder"],
+        ["xpath=//p[@id='alert_description']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Coba ingat-ingat lagi alamat e-mail/ nomor handphone dan password kamu. Masih ada yang salah nih.')]", "xpath:innerText"]
+      ],
+      "value": "Coba ingat-ingat lagi alamat e-mail/ nomor handphone dan password kamu. Masih ada yang salah nih."
+    }]
+  }, {
+    "id": "1ec69b43-9614-4f25-beee-b32bb9b7901b",
+    "name": "Choose Product",
+    "commands": [{
+      "id": "00d3f0d1-9256-4fde-a5f2-887ead4dc76c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9eef3825-48db-41eb-b191-514d069002ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e347d58f-b2b1-4318-881a-ea23010f43fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=Path_27893",
+      "targets": [
+        ["id=Path_27893", "id"],
+        ["css=#Path_27893", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "57059e6e-c9bc-418d-8520-56fd86cfd3a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Kode\\ Voucher\\ Google\\ Play .product-voucher-game",
+      "targets": [
+        ["css=#Kode\\ Voucher\\ Google\\ Play .product-voucher-game", "css:finder"],
+        ["xpath=(//img[@alt='icon produk sepulsa'])[14]", "xpath:img"],
+        ["xpath=//div[@id='Kode Voucher Google Play']/div/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b671814-4061-453f-82fc-5d6406c04c13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='to_denom_voucher']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lanjutkan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20013c1c-2f3b-4664-ac8a-e8d222fc4628",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "870e8b46-4463-4d3c-8d5f-542e076d949b",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "081808032043"
+    }, {
+      "id": "11ba2d32-f409-4b77-8592-7d8df5ca6720",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Kode\\ Voucher\\ Google\\ Play\\ 5 > .nominal-item__price",
+      "targets": [
+        ["css=#Kode\\ Voucher\\ Google\\ Play\\ 5 > .nominal-item__price", "css:finder"],
+        ["xpath=//div[@id='Kode Voucher Google Play 5']/p[3]", "xpath:idRelative"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rp5.000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "104ccb1d-d4f2-4de0-ad86-1bfadcb3e0e8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f17a0535-5b6b-4f89-98e2-fe84bc292095",
+    "name": "Choose Payment Method",
+    "commands": [{
+      "id": "0c6e7d58-5b88-4c42-917b-566437c33234",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b6f0714-520f-4b5a-90b0-424027a91a3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5755f33c-c720-46a1-bec8-b968d1ba32b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Path_27885",
+      "targets": [
+        ["id=Path_27885", "id"],
+        ["css=#Path_27885", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ca3358c-0f38-4f01-899a-3ed6551d3407",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Kode\\ Voucher\\ Google\\ Play .product-voucher-game",
+      "targets": [
+        ["css=#Kode\\ Voucher\\ Google\\ Play .product-voucher-game", "css:finder"],
+        ["xpath=(//img[@alt='icon produk sepulsa'])[14]", "xpath:img"],
+        ["xpath=//div[@id='Kode Voucher Google Play']/div/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a20de233-6ded-47bd-a2bb-3763b7803138",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='to_denom_voucher']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lanjutkan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78a3400a-b115-40bf-bff5-89bb2b3d2823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='to_denom_voucher']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lanjutkan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63cae9bd-ac43-4782-8289-ddd680dfd507",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f27e9578-b35f-4767-8db8-8b8eb684926d",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "081808032043"
+    }, {
+      "id": "896d156d-87c5-45d5-b8ad-0b4a04ff9412",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Kode\\ Voucher\\ Google\\ Play\\ 5 > .nominal-item__price",
+      "targets": [
+        ["css=#Kode\\ Voucher\\ Google\\ Play\\ 5 > .nominal-item__price", "css:finder"],
+        ["xpath=//div[@id='Kode Voucher Google Play 5']/p[3]", "xpath:idRelative"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rp5.000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4828b644-d92c-49e2-b8f9-d198a305c54c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Path_32686",
+      "targets": [
+        ["id=Path_32686", "id"],
+        ["css=#Path_32686", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6eddead-0edc-491c-899a-57c4234f6f87",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkbox Gopay",
+      "targets": [
+        ["id=checkbox Gopay", "id"],
+        ["name=Gopay", "name"],
+        ["css=#checkbox\\ Gopay", "css:finder"],
+        ["xpath=//input[@id='checkbox Gopay']", "xpath:attributes"],
+        ["xpath=//label[@id='label Gopay']/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c4e5c91e-e2fe-4ab3-a67c-89df54e9b861",
+    "name": "Not choosing a payment method",
+    "commands": [{
+      "id": "320cf7cb-2bd9-47de-b897-38dc582997ef",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18998f3a-7d75-4171-8080-0e0aa01926fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b513c65-f001-45b6-ae39-194ce940d538",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-splash",
+      "targets": [
+        ["css=.section-splash", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c2fdd7a-2ae1-4f19-82b1-cfe9ecf8fb8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Path_27885",
+      "targets": [
+        ["id=Path_27885", "id"],
+        ["css=#Path_27885", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a11856-7196-4411-9f63-9ccd3480bc60",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,212)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39f3c257-2ad3-492c-9ee1-d4ff3ab90503",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Kode\\ Voucher\\ Google\\ Play .product-voucher-game",
+      "targets": [
+        ["css=#Kode\\ Voucher\\ Google\\ Play .product-voucher-game", "css:finder"],
+        ["xpath=(//img[@alt='icon produk sepulsa'])[14]", "xpath:img"],
+        ["xpath=//div[@id='Kode Voucher Google Play']/div/img", "xpath:idRelative"],
+        ["xpath=//div[14]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "890166db-1ad1-45ac-ae2c-72b89875bb4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f72cd4e-2779-4000-bb10-86d29b14ccd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='to_denom_voucher']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lanjutkan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57cf513-57a0-417a-98d8-0d4c387a3ac6",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5be83e34-ae71-4fbb-96f7-87f3d73e2f25",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "081808032043"
+    }, {
+      "id": "5928ac85-aa13-4787-9458-9cebe04ea7bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Kode Voucher Google Play 5",
+      "targets": [
+        ["id=Kode Voucher Google Play 5", "id"],
+        ["css=#Kode\\ Voucher\\ Google\\ Play\\ 5", "css:finder"],
+        ["xpath=//div[@id='Kode Voucher Google Play 5']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f72c27-f106-41c1-b4fc-7a358ecfafc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more-payment > p",
+      "targets": [
+        ["css=.show-more-payment > p", "css:finder"],
+        ["xpath=//label[@id='show_all_payment']/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/label/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lihat Metode Pembayaran Lainnya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c692918-4911-4260-bcca-aef30deb630f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#submit_payment > .MuiButton-label",
+      "targets": [
+        ["css=#submit_payment > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='submit_payment']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd0b369-a256-4ac1-9518-36ce95f38aa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#submit_payment > .MuiButton-label",
+      "targets": [
+        ["css=#submit_payment > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='submit_payment']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "006994c6-0d1d-46b5-8ef4-47e908c91f47",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#submit_payment > .MuiButton-label",
+      "targets": [
+        ["css=#submit_payment > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='submit_payment']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a68113-afa3-406b-b2d0-e82202e0b5d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b5e949-4480-4bb0-a068-e50bb801efae",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=error_select_payment",
+      "targets": [
+        ["id=error_select_payment", "id"],
+        ["css=#error_select_payment", "css:finder"],
+        ["xpath=//p[@id='error_select_payment']", "xpath:attributes"],
+        ["xpath=//div[@id='section-list-payment']/div/p[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Kamu belum memilih metode pembayaran')]", "xpath:innerText"]
+      ],
+      "value": "Kamu belum memilih metode pembayaran"
+    }]
+  }],
+  "suites": [{
+    "id": "9b7fec8d-1a08-4b00-9b8f-da206b16f68f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sepulsa.com/"],
+  "plugins": []
+}
