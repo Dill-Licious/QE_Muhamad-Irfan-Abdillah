@@ -73,5 +73,7 @@ export default class LoginPage extends BasePage {
     return validateCreateAccountText;
   }
 
-  //tap create account
+  async tapCreateAccountText(){
+    await this.click('//android.widget.TextView[@resource-id="com.loginmodule.learning:id/textViewLinkRegister"]');
+  }
 }
