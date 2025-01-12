@@ -113,7 +113,7 @@
         ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
       ],
-      "value": "Keluarga12345"
+      "value": "Password"
     }, {
       "id": "589c3d24-7f40-4f92-a3e8-ebb68bba6bea",
       "comment": "",
